@@ -4,7 +4,7 @@ html {
     font-size: 100%;
 }
 body {
-    background-color: #f2ece1;
+    background-color: #b3d0d7;
     color: #333;
     font-family: "Meiryo", "Hiragino Sans", sans-serif;
 }
@@ -67,7 +67,7 @@ iframe {
 #header-area .mainvisual .page-title {
     width: 100%;
     max-width: 300px;
-    background-color: #f2ece1;
+    background-color: #b3d0d7;
     border-radius: 0 30px 0 0 ;
     padding-top: 15px;
     text-align: center;
@@ -163,7 +163,7 @@ iframe {
 }
 /* アクセス */
 #access {
-    background-color: #e9e1d1;
+    background-color: #dddddd;
     padding: 80px 0;
 }
 #access .inner {
@@ -216,7 +216,7 @@ iframe {
     margin: 0 15px;
 }
 #footer .copyright {
-    background-color: #9a8865;
+    background-color: #888888;
     color: #fff;
     font-size: 10px;
     padding: 20px 0;
