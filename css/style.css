@@ -6,7 +6,10 @@ html {
 body {
     background-color: #b3d0d7;
     color: #333;
-    font-family: "Meiryo", "Hiragino Sans", sans-serif;
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 img {
     max-width: 100%;
