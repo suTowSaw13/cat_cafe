@@ -1,0 +1,157 @@
+@use "style";
+
+.blog-list {
+    margin-bottom: 80px;
+    .post-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px 20px;
+        margin-bottom: 40px;
+        li {
+            .img {
+                margin-bottom: 10px;
+                img {
+                    border-radius: 30px;
+                }
+            }
+            time {
+                font-size: 12px;
+            }
+            .title {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .pagenation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            margin: 0 10px;
+        }
+    }
+}
+
+//ブログ詳細
+//メイン
+.blog-post {
+    display: flex;
+    .post {
+        width: 100%;
+        max-width: 680px;
+        margin-right: 40px;
+        .thumbnail {
+            margin-bottom: 40px;
+            img {
+                width: 100%;
+                border-radius: 30px;
+            }
+        }
+        .info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            time {
+                font-size: 12px;
+            }
+            .category {
+                background-color: #fff;
+                border-radius: 4px;
+                font-size: 12px;
+                padding: 2px 4px;
+                margin-left: 10px;
+            }
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .content {
+            ul {
+                margin: 0 0 30px 18px;
+            }
+            li {
+                line-height: 1.8;
+                list-style-type: disc;
+            }
+            p {
+                line-height: 1.8;
+                margin-bottom: 0px;
+            }
+            .youtube {
+                margin-bottom: 30px;
+                iframe {
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 16 / 9;
+                }
+            }
+        }
+    }
+}
+
+//サイドバー
+.blog-post .sidebar {
+    max-width: 280px;
+    .title {
+        border-bottom: solid 1px #707070;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        li {
+            background-color: #fff;
+            border-radius: 4px;
+            font-size: 12px;
+            padding: 2px 4px;
+            margin: 0 10px 10px 0;
+        }
+    }
+    .post-list {
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            display: flex;
+            align-items: center;
+        }
+        .post-thumbnail {
+            max-width: 80px;
+            flex-shrink: 0;
+            margin-right: 10px;
+        }
+        .post-title {
+            font-size: 12px;
+        }
+    }
+}
+
+.btn {
+    margin:0 auto 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .blog-list {
+        margin-bottom: 60px;
+        .post-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .blog-post {
+        flex-direction: column;
+        margin-bottom: 40px;
+        .post {
+            margin: 0 0 40px;
+        }
+    }
+    .btn {
+        margin: 0 auto 60px;
+    }
+}
