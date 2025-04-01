@@ -121,6 +121,13 @@
 }
 
 
+//lightbox2
+.lb-data {
+    .lb-caption {
+        font-size: 26px;
+    }
+}
+
 //スマートフォン
 @media screen and (max-width: 767px) {
     //コンセプト
@@ -188,6 +195,13 @@
             }
         }
     }
+
+    //lightbox2
+    .lb-data {
+        .lb-caption {
+            font-size: 13px;
+        }
+}
    
 }
 
