@@ -6,6 +6,8 @@
 - OGP導入
 - Google Fonts導入
 - 「favicon.ico」「apple-touch-icon.png」を設置
+- スクロールアニメーションを導入（JQueryプラグイン「AOS.js」）
+- ライトボックスを導入（JQueryプラグイン「Lightbox2」）
 - Sass導入
 - PostCSSを利用してのベンダープレフィックスの自動付与
 
